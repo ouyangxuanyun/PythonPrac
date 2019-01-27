@@ -36,10 +36,10 @@ class Student(Human):
         super(Student, self).do_homework()
         print('child home work')
 
-student = Student('百家小学','小明', 100)
+
+student = Student('百家小学', '小明', 100)
 student.print_file()
 student.do_homework()
 
 Student.plus_sum()
 Student.add(22, 33)
-
