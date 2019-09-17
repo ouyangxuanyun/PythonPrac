@@ -1,6 +1,6 @@
-import math
+import math_prac
 import cmath
-print(dir(math))
+print(dir(math_prac))
 
 print(cmath.sqrt(-1))
 
