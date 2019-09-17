@@ -33,7 +33,7 @@ class Circle:
     R = property(get_radius, set_radius)
 
 
-c = Circle(5.712)
+c = Circle(55.712)
 # print(c.get_radius())
 
 c.S = 99.88
