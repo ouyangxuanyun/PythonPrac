@@ -42,6 +42,7 @@ print(rect1 > rect2)
 
 @total_ordering
 class Shape(metaclass=ABCMeta):
+    # 定义抽象方法，子类必须实现这个抽象方法，否则报错： Can't instantiate abstract class Circle with abstract methods area
     @abstractmethod
     def area(self):
         pass
