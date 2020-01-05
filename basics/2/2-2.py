@@ -11,6 +11,7 @@ EMAIL = 3
 
 student = ('Jin', 16, 'male', 'jim2018@qq.com')
 
+print(student[0],student[3])
 print(student[NAME], student[EMAIL])
 
 '''
